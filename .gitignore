@@ -1,0 +1,24 @@
+# ESP-IDF build
+build/
+managed_components/
+dependencies.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs y temporales
+*.log
+.cache/

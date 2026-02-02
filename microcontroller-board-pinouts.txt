@@ -1,0 +1,2 @@
+Processor: ESP32-C3
+Screen: 0.42 inch OLED

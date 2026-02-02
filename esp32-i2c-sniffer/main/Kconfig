@@ -1,0 +1,17 @@
+menu "I2C Sniffer"
+
+config I2C_SNIFFER_GPIO_SDA
+    int "GPIO for I2C SDA (passive monitor)"
+    default 6
+    range 0 21
+    help
+        GPIO number connected to the I2C SDA line. Only monitoring; do not drive.
+
+config I2C_SNIFFER_GPIO_SCL
+    int "GPIO for I2C SCL (passive monitor)"
+    default 7
+    range 0 21
+    help
+        GPIO number connected to the I2C SCL line. Only monitoring; do not drive.
+
+endmenu
